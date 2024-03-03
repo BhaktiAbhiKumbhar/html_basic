@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div style="background-color: rgba(0,255,0,0.2); align-items: center;justify-content: center; width: 50%; height: 110%;position: absolute; left:40%">
+        <h1>Resistration form</h1>
+    <form action="Completed.html" validate oninput="sum.value=(parseInt(a.value)+parseInt(b.value)+parseInt(c.value)+parseInt(d.value))/4">
+    <label for="name"><span style="color: red">*</span>Full Name:--</label>
+    <input type="text" id="name" placeholder="Enter your name" required autofocus > 
+    <br><br>
+    <label for="contact"><span style="color: red" >*</span>Contact No:--</label>
+    <input type="number" id="contact" placeholder="contact no" required  minlength="10" > 
+    <br><br>
+    <label for="tele">Telephone:--</label>
+    <input type="tel" id="tele" placeholder="contact no" > 
+    <br><br>
+    <label for="email"><span style="color: red">*</span>Email:--</label>
+    <input type="email" id="email" placeholder="Enter your emailId" required autocomplete="on"> 
+    <br><br>
+    <label for="pass"><span style="color: red">*</span>Password:--</label>
+    <input type="password" id="pass" placeholder="Enter your password" required > 
+    <br><br>
+    <label for="DOF">Date of Birth:--</label>
+    <input type="date" id="DOF" placeholder="Enter your Date of Birth" > 
+    <br><br>
+    <label for="time">select a time:--</label>
+    <input type="time" id="time" placeholder="select a time" > 
+    <br><br>
+    <label for="color">select a color:--</label>
+    <input type="color" id="color"  > 
+    <br><br>
+    <label>Gender:--</label>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label>
+    <input type="radio" id="others" name="gender" value="others">
+    <label for="others">Others</label>
+    <br><br>
+    <label>Language:--</label>
+    <input type="checkbox" id="html" name="lang" value="html">
+    <label for="html">HTML</label>
+    <input type="checkbox" id="Css" name="lang" value="Css">
+    <label for="Css">CSS</label>
+    <input type="checkbox" id="JavaScript" name="lang" value="JavaScript">
+    <label for="JavaScript">JavaScript</label>
+    <br><br>
+    <label for="country">Country:</label>
+    <select id="country">
+        <option value="" selected disabled>select a country</option>
+        <option value="India">India</option>
+        <option value="pakistan">pakistan</option>
+        <option value="Australia">Australia</option>
+    </select>
+    <br><br>
+    <label for="State">State:</label>
+    <input list="state_list" id="State">
+    <datalist id="state_list">
+        <option value="maharastra">
+        <option value="karnatak">
+        <option value="tamilnadu">
+    </datalist>
+    <br><br>
+    <label for="profile">profile URL:--</label>
+    <input type="url" id="profile" placeholder="profile URL paste here" > 
+    <br><br>
+    <label for="resume">uplode sigle file:--</label>
+    <input type="file" id="resume"  > 
+    <br><br>
+    <label for="images">uplode sigle file:--</label>
+    <input type="file" id="images" multiple  > 
+    <br><br>
+     
+    <label>Overall CGPA(from 1st to 4th yaer)</label>
+    <input type="number" id="a" value="9">+
+    <input type="number" id="b" value="8.3">+
+    <input type="number" id="c" placeholder="3rd year">+
+    <input type="number" id="d" placeholder="4th year">=
+    <output type=text name="sum" for="a b c d" style="background-color: rgb(192, 65, 69);"></output>
+    <br><br>
+    <button>Submit</button>
+    <input type="reset" value="Reset form">
+    
+    
+    </form>
+    </div>
+</body>
+</html>
