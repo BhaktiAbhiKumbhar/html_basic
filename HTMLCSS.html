@@ -8,12 +8,121 @@
         h1{
             color: brown;
         }
+        
     </style>
     <link rel="stylesheet" href="./HTMLCSS.Css">
 </head>
 <body>
-    <p style="color: aqua;">what is inline in Css</p>
+    <div style="background-color: brown;
+    height: 350px;
+    width: 200px;
+    padding: 20px;
+    margin: 50px;
+    border: 5px solid black;">
+        <p
+        style="background-color: rgb(167, 134, 134);
+        padding: 20px;
+        margin: 10px;
+        border: 5px solid greenyellow;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus accusamus nesciunt nemo molestiae cum minus, pariatur, veniam quaerat ratione libero iusto illo. Omnis voluptas veritatis totam corrupti minus laboriosam dolores.</p>
+    </div>
+
+    <h1 style="color: aqua;">what is inline in Css</h1>
     <h1 >what is internal in CsS</h1>
     <h2 >what is external in CsS</h2>
+
+    <a href="https://www.w3schools.com/css/css_selectors.asp" target="_blank">what is visited</a>
+    <a href="https://www.w3schools.com/w3js/w3js_selectors.asp" target="_blank">what is active</a>
+    <a href="https://www.youtube.com/ " target="_blank">what is unvisited</a>
+
+    <div style="width: 200px;
+    display: inline-block;
+    text-align: left;
+    border: 4px solid rgb(25, 41, 2);">
+        <p >
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium, neque. Aspernatur nam beatae consectetur sapiente doloremque maiores magni, sed recusandae voluptates ratione temporibus numquam placeat ipsa nemo reprehenderit dolorum quasi.
+        </p>
+    </div>
+    <div style="width: 200px;
+    text-align: right;
+    display: inline-block;
+    border: 4px solid rgb(25, 41, 2);">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur nesciunt iste dolores qui natus eligendi fugiat ipsa quam. Quos iure in error. Quam, quaerat natus! Voluptates magni blanditiis voluptatibus voluptatum!</p>
+    </div>
+    <div style="width: 200px;
+    text-align: center;
+    display: inline-block;
+    border: 4px solid rgb(25, 41, 2);">
+        <p >
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium, neque. Aspernatur nam beatae consectetur sapiente doloremque maiores magni, sed recusandae voluptates ratione temporibus numquam placeat ipsa nemo reprehenderit dolorum quasi.
+        </p>
+    </div>
+    <div style="width: 200px;
+    display: inline-block;
+    text-align: justify;
+    border: 4px solid rgb(25, 41, 2);">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur nesciunt iste dolores qui natus eligendi fugiat ipsa quam. Quos iure in error. Quam, quaerat natus! Voluptates magni blanditiis voluptatibus voluptatum!</p>
+    </div>
+
+
+
+
+    <div style="background-color: darkorange;
+                    width: 200px;
+                    display: inline-block;
+                    border: 4px solid rgb(25, 41, 2);">
+            <p>Before the image.</p>
+            <img src="/Assets/Screenshot 2023-12-27 005934.png" width="100%" style="visibility: hidden;">
+            <p>After the image.</p>
+        </div>
+        <div style="background-color: darkorange;
+                    width: 200px;
+                    display: inline-block;
+                    border: 4px solid rgb(25, 41, 2);">
+            <p>Before the image.</p>
+            <img src="/Assets/Screenshot 2023-12-27 005934.png" width="100%" style="display: none;">
+            <p>After the image.</p>
+        </div>
+
+        <div class="block">
+             <p>display:block.....1</p>
+        </div>
+         <div class="block" style="margin:40px;"> <!-- it will apply only single block -->
+            <p>display:block.....2</p>
+       </div>
+       <div class="block">
+        <p>display:block.....3</p>
+   </div>
+
+   <div class="inline" style="display: inline;">
+    <p>display:inline.....1</p>
+   </div>
+   <div class="inline">
+    <p>display:inline.....2</p>
+   </div>
+   <div class="inline">
+    <p>display:inline.....3</p>
+   </div>
+
+   <div class="inline_block" >
+    <p>display:inline_block.....1</p>
+   </div>
+   <div class="inline_block" style="margin: 40px;">  <!-- it will apply to all div tag for inline block  -->
+    <p>display:inline_block.....2</p>
+   </div>
+   <div class="inline_block">
+    <p>display:inline_block.....3</p>
+   </div>
+
+   <div style="display: flex;">
+    <div class="flex">
+        <p>display:flex...1</p>
+       </div>
+       <div class="flex" style="margin: 40px;">     <!-- it will apply only single block -->
+        <p>display:flex...1</p>
+       </div>
+       <div class="flex">
+        <p>display:flex...1</p>
+       </div>
+    </div>
 </body>
 </html>

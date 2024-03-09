@@ -1,3 +1,46 @@
 h2{
     color:blue
 }
+/*unvisited link*/
+a:link{
+    color: brown;
+    text-decoration: none;
+}
+/*selected link*/
+a:active{
+    color:greenyellow;
+}
+/*visited link*/
+a:visited{
+    color: blue;
+}
+/*mouse over link*/
+a:hover{
+    color: aqua;
+    text-decoration: underline;
+}
+.block{
+    height: 100px;
+    width: 120px;
+    background-color: rgb(193, 102, 102);
+    display: block;
+}
+.inline{
+    height: 100px;
+    width: 120px;
+    background-color:rgb(169, 209, 108);
+    /* display: inline; */
+}
+.inline_block{
+    height: 100px;
+    width: 180px;
+    background-color:rgb(76, 108, 148);
+    display:inline-block;
+}
+.flex{
+    height: 100px;
+    width: 180px;
+    margin: 10px;
+    background-color:rgb(95, 48, 81);
+    /* display:flex; */
+}
