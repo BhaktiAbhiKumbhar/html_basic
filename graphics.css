@@ -1,0 +1,22 @@
+.back_img{
+    background-image:url(/Assets/Screenshot\ 2023-12-27\ 005934.png);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size:contain;
+    /* background-size: 50vw 50vh; */
+   
+}
+.text{
+    color: brown;
+    filter: blur(1px);
+}
+
+/* background-repeat: no-repeat; Image is placed only once. */
+                /* background-repeat: repeat-x; /* Image gets repeated horizonatally. */
+                /* background-repeat: repeat-y; /* Image gets repeated vertically. */
+                
+                /* background-attachment: fixed; /* Image gets fixed at a position. */
+                /* background-attachment: scroll; Image can be scroll as like default. */
+                
+                /*background-size: contain;  Responsive back ground image of full width*/
+                /* filter: blur(8px);"> */
